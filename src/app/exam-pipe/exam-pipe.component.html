@@ -1,0 +1,14 @@
+<p>
+  exam-pipe works!
+</p>
+<!--
+{{course.title | uppercase | lowercase}} <br/>
+-->
+
+{{course.students | number}} <br/>
+{{course.rating | number : '2.1-1'}} <br/>
+{{course.price | currency:'AUD': true:'3.3-3'}} <br/>
+{{course.releaseDate | date:'mediumDate'}} <br/>
+
+<!-- custom pipe -->
+{{course.title | summary}} <br/>

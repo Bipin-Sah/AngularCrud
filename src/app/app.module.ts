@@ -9,6 +9,8 @@ import { CoursesComponent } from './courses/courses.component';
 import { ExamPipeComponent } from './exam-pipe/exam-pipe.component';
 import { FavoriteComponent } from './favorite/favorite.component';
 import { CounterComponent } from './counter/counter.component';
+import { ReUsableComponent } from './re-usable/re-usable.component';
+import { AppchildComponent } from './appchild/appchild.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +19,9 @@ import { CounterComponent } from './counter/counter.component';
     ExamPipeComponent,
     SummaryPipe,
     FavoriteComponent,
-    CounterComponent
+    CounterComponent,
+    ReUsableComponent,
+    AppchildComponent
   ],
   imports: [
     BrowserModule,

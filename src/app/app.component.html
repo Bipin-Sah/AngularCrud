@@ -6,5 +6,10 @@
 </div>
 <app-courses></app-courses>
 <exam-pipe></exam-pipe>
-<favorite></favorite>
+<app-favorite></app-favorite>
 <app-counter></app-counter>
+<!-- <app-re-usable [isFavorite]='post.isFavorite' ></app-re-usable> -->
+<!-- <app-re-usable [isFavorite]='post.isFavorite' (change)='onFavpriteChanged()'></app-re-usable> -->
+<app-re-usable [isFavorite]='post.isFavorite' (change)='onFavpriteChanged($event)'></app-re-usable>
+
+<app-appchild></app-appchild>

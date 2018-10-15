@@ -8,6 +8,9 @@ import { Component, OnInit, Input } from '@angular/core';
 })
 export class FavoriteComponent implements OnInit {
  @Input('isFavorite') isSelected : boolean;
+ @Input() placeholder: string;
+ @Input() type: string;
+ @Input() autocomplete: string;
 
   constructor() { }
 

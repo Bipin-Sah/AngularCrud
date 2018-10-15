@@ -11,6 +11,9 @@ import { FavoriteComponent } from './favorite/favorite.component';
 import { CounterComponent } from './counter/counter.component';
 import { ReUsableComponent } from './re-usable/re-usable.component';
 import { AppchildComponent } from './appchild/appchild.component';
+import { InputRefDirective } from './input-ref.directive';
+import { FaInputComponent } from './fa-input/fa-input.component';
+
 
 @NgModule({
   declarations: [
@@ -21,11 +24,13 @@ import { AppchildComponent } from './appchild/appchild.component';
     FavoriteComponent,
     CounterComponent,
     ReUsableComponent,
-    AppchildComponent
+    AppchildComponent,
+    InputRefDirective,
+    FaInputComponent
   ],
   imports: [
     BrowserModule,
-    FormsModule
+    FormsModule    
   ],
   providers: [],
   bootstrap: [AppComponent]

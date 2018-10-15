@@ -32,4 +32,8 @@ export class AppComponent {
   onFavpriteChanged(eventArgs: FavoriteChangedEventArgs) {
   console.log('Favorite has clicked:',eventArgs);
 }
+
+onNewValue(val){
+  console.log(val);
+}
 }

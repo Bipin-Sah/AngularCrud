@@ -1,15 +1,19 @@
 <!--The content below is only a placeholder and can be replaced.-->
-<div style="text-align:center">
-  <h1>
-    Welcome to {{ title }}!
-  </h1>
-</div>
+<h1>FA Input</h1>
+
+<app-fa-input icon="envelope">   
+
+  <input inputRef type="email" placeholder="Email">
+
+</app-fa-input> 
 <app-courses></app-courses>
 <exam-pipe></exam-pipe>
 <app-favorite></app-favorite>
-<app-counter></app-counter>
-<!-- <app-re-usable [isFavorite]='post.isFavorite' ></app-re-usable> -->
-<!-- <app-re-usable [isFavorite]='post.isFavorite' (change)='onFavpriteChanged()'></app-re-usable> -->
-<app-re-usable [isFavorite]='post.isFavorite' (change)='onFavpriteChanged($event)'></app-re-usable>
+<app-counter></app-counter> 
 
+<app-re-usable [isFavorite]='post.isFavorite' ></app-re-usable> 
+<app-re-usable [isFavorite]='post.isFavorite' (change)='onFavpriteChanged()'></app-re-usable>
+<app-re-usable [isFavorite]='post.isFavorite' (change)='onFavpriteChanged($event)'></app-re-usable>
 <app-appchild></app-appchild>
+ <app-fa-input></app-fa-input>
+
